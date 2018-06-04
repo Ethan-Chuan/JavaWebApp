@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author Ethan
  */
-@WebServlet(name = "PathServlet", urlPatterns = {"/servlet/*"})
+@WebServlet(name = "PathServlet", urlPatterns = {"/book/lin/servlet/*"})
 public class PathServlet extends HttpServlet {
 
     /**
